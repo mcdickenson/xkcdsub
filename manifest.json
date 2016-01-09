@@ -2,10 +2,11 @@
   "manifest_version": 2,
 
   "name": "xkcdsub",
-  "description": "This extension makes news articles more fun, as suggested in XKCD 1288.",
-  "version": "0.1",
+  "short_name": "xkcdsub",
+  "description": "This extension makes news articles more fun, as suggested in XKCD 1288 and 1625.",
+  "version": "0.2",
   "permissions": [
-    "tabs", "http://*/*", "activeTab"
+    "tabs", "http://*/*", "https://*/*", "activeTab"
   ],
 
   "background": {
